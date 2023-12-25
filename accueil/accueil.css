@@ -1,0 +1,33 @@
+.pages{
+    padding : 0px 80px 0px 80px ; 
+}
+
+.desc1 {
+    text-align: center; 
+    padding: 25px 0px 25px 0px; 
+}
+
+.accueil{
+    background-color: #4255ff2b;
+    border-radius: 20px;
+    padding: 25px;
+    border: dashed #2d42ff;
+   
+}
+
+.pfp{
+    
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+img{
+    max-width: 300px;
+
+}
+
+
+p.section {
+    padding: 10px 0px 10px 0px; 
+}

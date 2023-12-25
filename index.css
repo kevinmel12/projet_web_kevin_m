@@ -1,0 +1,124 @@
+
+
+
+                    /* ------------------------- NAVBAR ------------------------- */
+
+    .navbar {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000; /* Assure que la navbar reste au-dessus du reste du contenu */
+    }
+    
+    /* Ajout d'une marge pour compenser le positionnement fixe */
+    .pages {
+        margin-top: 80px; /* Ajustez la valeur pour correspondre à la hauteur de votre navbar */
+    }
+                
+* {
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+    background-color: rgb(14, 81, 209); 
+    text-align: center; 
+    
+}
+
+
+.navbar ul {
+    list-style-type: none; 
+    padding: 0;
+    display: inline-block; /
+}
+
+
+.navbar li {
+    display: inline; 
+}
+
+
+.navbar a {
+    display: inline-block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px;
+    text-decoration: none; 
+}
+
+
+.navbar a:hover {
+    background-color: rgb(14, 22, 177); 
+    color: white; 
+}
+
+                        /* ------------------------- HEADER ------------------------- */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero {
+    position: relative;
+    height: 400px; 
+    background-image: url('images/header.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    text-align: center;
+}
+
+
+.superposition {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,255,0.5), rgba(0,0,255,0.8));
+}
+
+
+.header-content {
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+}
+
+
+.header-content h1 {
+    font-size: 3em; 
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1.5em; 
+}
+
+.navbar img {
+    width: 25px; 
+    height: auto; 
+}
+
+
+
+
+/* NAVBAR RESPONSIVE */
+@media screen and (max-width: 800px) {
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar li {
+        float: none;
+    }
+}

@@ -1,0 +1,37 @@
+
+.niveau-etoiles {
+    font-size: 20px; 
+    color: blue; 
+    margin-bottom: 10px;
+}
+
+.niveau-etoiles p {
+    font-weight: bold; 
+}
+
+.etoile-filled,
+.etoile-empty {
+    font-size: 20px; 
+}
+
+.competences{
+    background-color: #4255ff2b;
+    border-radius: 20px;
+    padding: 25px;
+    border: dashed #2d42ff;
+    margin-top: 20px;
+}
+
+img{
+    
+    max-width: 300px;
+}
+
+.illu-competences img{
+    border-radius: 15px;
+}
+
+.illu-competences{
+    display: flex;
+    justify-content: center;
+}

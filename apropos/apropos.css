@@ -1,0 +1,34 @@
+
+
+.apropos{
+    background-color: #4255ff2b;
+    border-radius: 20px;
+    padding: 25px;
+    border: dashed #2d42ff;
+    margin-top: 20px;
+}
+
+.pfp{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    
+    max-width: 300px;
+}
+
+
+p.section {
+    padding: 10px 0px 10px 0px; 
+}
+
+.illu-apropos img{
+    border-radius: 15px;
+    
+}
+
+.illu-apropos{
+    display: flex;
+    justify-content: center;
+}
